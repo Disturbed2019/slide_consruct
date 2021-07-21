@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script  src="gallery.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cards"></div>
+
+<script>
+    //init cards gallery
+const my_gallery = new gallery('.cards', {
+        slides: [
+            {
+                title: 'Indian',
+                link: './images/indian.jpg'
+            },
+            {
+                title: 'BMW',
+                link: './images/bmw.jpg'
+            },
+            {
+                title: 'Harley-Davidson',
+                link: './images/harley.jpg'
+            },
+            {
+                title: 'Triumph',
+                link: './images/triumph.jpg'
+            },
+            {
+                title: 'Suzuki',
+                link: './images/suzuki.jpg'
+            }
+        ]
+    })
+
+</script>
+</body>
+</html>
